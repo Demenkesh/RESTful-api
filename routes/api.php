@@ -34,6 +34,6 @@ Route::get('login', [AuthController::class, 'login']);
 //     Route::apiResource('posts', BlogPostController::class);
 // });
 Route::prefix('v1')->middleware('auth:api')->group(function () {
-    Route::apiResource('posts', BlogPostController::class);
+    Route::apiResource('blog-posts', BlogPostController::class);
 });
 // post route start ends
