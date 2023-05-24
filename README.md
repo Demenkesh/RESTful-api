@@ -13,7 +13,9 @@ Please note that you should replace {access_token} with the actual access token 
   API Overview:
 The Blogging Platform API allows users to create, read, update, and delete blog posts. Users can register and authenticate to manage their own posts. The API uses token-based authentication with Laravel Passport.
 
-API Base URL: http://your-domain/api
+
+NOTE; MAKE USE OF API IN THE PARAMETERS ;EXAMPLE http://your-domain/api/register ,http://your-domain/api/login , do it to the rest
+API Base URL: http://your-domain
 
 Endpoints:
 
