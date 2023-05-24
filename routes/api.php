@@ -30,6 +30,8 @@ Route::get('login', [AuthController::class, 'login']);
 //login route ends
 
 // post route start
+//you can use any of the ,one is with v1 and other is not 
+
 // Route::middleware('auth:api')->group(function () {
 //     Route::apiResource('posts', BlogPostController::class);
 // });
